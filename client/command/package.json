@@ -1,0 +1,10 @@
+{
+  "name": "distpattern-commandline-tool",
+  "version": "1.0.1",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "console.table": "^0.8.0",
+    "inquirer": "^3.0.6"
+  },
+  "devDependencies": {}
+}

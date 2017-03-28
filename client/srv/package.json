@@ -1,0 +1,8 @@
+{
+  "name": "distpattern-server-wrapper",
+  "version": "1.0.0",
+  "dependencies": {
+    "ws": "*"
+  },
+  "devDependencies": {}
+}

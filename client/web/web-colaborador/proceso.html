@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico">
+
+    <title>Dist-Pattern - Procesador</title>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/local.css"/>
+    <style>
+        h1 {
+            text-align: center;
+        }
+        h4 {
+            height: 46px;
+        }
+        #processing {
+            /*position: absolute; top: 120px; left: 10px; bottom: 10px; right: 10px;*/
+            background-size: contain; background-repeat: no-repeat; background-position: 50% 50%;
+            width: 500px; height: 500px;
+            border: 0; border-image-width: 0;
+        }
+        #process {
+            display: none;
+        }
+        #end {
+            display: none;
+        }
+    </style>
+    <script type="text/javascript" src="js/check.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<div id="page-wrapper">
+    <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8">
+            <h1>Dist-Pattern - Procesador</h1>
+        </div>
+    </div>
+    <div id="process">
+        <div class="row text-center">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8">
+                <h4 id="message">...</h4>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8" style="background-color: #000;">
+                <img class="img-responsive center-block" id="processing" src="./images/none.png">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <button id="cancel" class="btn btn-danger btn-sm">Cancelar</button>
+            </div>
+        </div>
+    </div>
+    <div id="end">
+        <div class="row text-center">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8">
+                <h4>Muchas gracias</h4>
+                <a href="javascript:location.reload();">pulsa aquí para volver a empezar</a>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/process.js"></script>
+</body>
+</html>

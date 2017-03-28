@@ -1,0 +1,1 @@
+!sessionStorage.getItem('xc1w2654das') ? (window.location.href.indexOf('/pages/') > -1 ? window.location.href='../login.html' : window.location.href='login.html') : user = JSON.parse(sessionStorage.getItem('xc1w2654das'));
